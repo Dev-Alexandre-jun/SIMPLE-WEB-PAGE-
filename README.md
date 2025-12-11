@@ -1,5 +1,5 @@
 # README.md 
-**README DESCRIÇÃO** Feito por I.A -- Essa descrição foi feita por I.A para melhor compreensão do público
+**README DESCRIÇÃO** Feito por I.A -- Essa descrição foi feita por I.A para melhor compreensão ao público
 
 -- 
 
