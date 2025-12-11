@@ -1,1 +1,23 @@
-#
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+:root {
+  --color-t: transparent;
+  --color-w: #ffffff;
+  --color-b: #000000;
+  --color-lg: #D3D3D3;
+  --color-ds: #1e88e5;
+  --color-0-i: #feda75;
+  --color-1-i: #fa7e1e;
+  --color-2-i: #d62976;
+  --color-3-i: #962fbf;
+  --color-4-i: #4f5bd5;
+  --color-0-g: #8c8f94;
+  --color-1-g: #646970;
+  --color-0-s: #1db954;
+  --color-1-s: #1ed760;
+  --color-bl: rgba(255, 255, 255, 0.2);
+}
