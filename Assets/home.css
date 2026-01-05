@@ -79,7 +79,7 @@ aside {
   background-color: var(--color-be);
   border-radius: 5px;
   color: var(--color-w);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   white-space: nowrap;
   transform: rotate(270deg);
