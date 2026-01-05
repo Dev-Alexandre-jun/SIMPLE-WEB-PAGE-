@@ -82,7 +82,7 @@ aside {
   font-size: 12px;
   font-weight: bold;
   white-space: nowrap;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
 }
 
 .card-article-home,
