@@ -8,6 +8,7 @@ const SUB_TITLE_HOME = document.querySelector(".sub-title");
 const IMG_0_HOME = document.querySelector(".card-img-home");
 const IMG_1_HOME = document.querySelector(".card-flex-box-home");
 const IMG_2_HOME = document.querySelector(".card-grid-home");
+const FOOT_HOME = document.querySelector("footer");
 const linksImage = [
     "../Media/setting-css-properties-83a3592180319.png",
     "../Media/flex.png",
@@ -47,4 +48,6 @@ const linksImage = [
 CARD_LEFT_HOME.style.position = "fixed";
     CARD_LEFT_HOME.style.top = "50%";
     CARD_LEFT_HOME.style.right = "-8%";
+
+FOOT_HOME.style.marginTop = "78px";
   };
