@@ -47,7 +47,7 @@ const linksImage = [
     SUB_TITLE_HOME.style.fontSize = "25px";
 CARD_LEFT_HOME.style.position = "fixed";
     CARD_LEFT_HOME.style.top = "50%";
-    CARD_LEFT_HOME.style.right = "-8%";
+ CARD_LEFT_HOME.style.right = "-8%";
 
 FOOT_HOME.style.marginTop = "78px";
   };
