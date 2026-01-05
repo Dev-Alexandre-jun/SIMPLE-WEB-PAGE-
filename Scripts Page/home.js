@@ -3,6 +3,7 @@
 const bd = document.body;
 const ALTERNATE_IMG = document.querySelector("#ALT_IMG");
 const CARD_HOME = document.querySelector(".card-head");
+const CARD_LEFT_HOME = document.querySelector(".card-span-left");
 const SUB_TITLE_HOME = document.querySelector(".sub-title");
 const IMG_0_HOME = document.querySelector(".card-img-home");
 const IMG_1_HOME = document.querySelector(".card-flex-box-home");
@@ -43,4 +44,7 @@ const linksImage = [
     ALTERNATE_IMG.style.transform = "translate(63px, 0)";
     CARD_HOME.style.width = "111%";
     SUB_TITLE_HOME.style.fontSize = "25px";
+CARD_LEFT_HOME.style.position = "fixed";
+    CARD_LEFT_HOME.style.top = "50%";
+    CARD_LEFT_HOME.style.right = "-8%";
   };
