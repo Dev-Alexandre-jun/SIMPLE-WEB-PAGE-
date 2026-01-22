@@ -60,8 +60,8 @@ input[type="password"].error {
   transition: 0.3s;
   background: transparent;
 }
-.fixed input:focus+label,
-.fixed input:not(:placeholder-shown)+label {
+.fixed input:focus + label,
+.fixed input:not(:placeholder-shown) + label {
   top: -20px;
   left: 4px;
   font-size: 20px;
