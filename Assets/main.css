@@ -1,5 +1,11 @@
 /* NOT RESPONSIVE - ( Screen ) - Tablet's and Laptop's - Computer */
-body {
+.card-main {
+  display:none;
+}
+.card-main.login-sucess {
+  display: unset; !important;
+}
+body.sucess {
   height: 100vh;
   background-color: var(--color-w);
   color: var(--color-b);
@@ -12,7 +18,7 @@ body[data-theme="light"]{
 header {
   height: 150px;
   width: 100%;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjy7tSiCdkGwhuPGHi20EbxVNaAZOiZrTajA&s);
+  background-image: url(../Media/header_main.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   border: 0.8px solid;
@@ -39,7 +45,7 @@ header {
   border: none;
   font-size: 26px;
   color: var(--color-w);
-  transform: translate(285px, 94px);
+  transform: translate(285px, 64px);
 }
 .fa-moon {
   -webkit-text-stroke: 2px;
