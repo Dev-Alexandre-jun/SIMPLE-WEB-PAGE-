@@ -184,6 +184,27 @@ footer {
   }
 }
 /* -- MEDIA QUERY FEITO POR I.A CHAT-GPT -- */
+@media (max-width: 768px) {
+  @supports (-moz-appearance: none) {
+    #ALT_IMG {
+      transform: translate(63px, 0);
+    }
+    .card-head {
+      width: 111%;
+    }
+    .sub-title {
+      font-size: 25px;
+    }
+    .card-span-left {
+      position: fixed;
+      top: 50%;
+      right: -8px;
+    }
+    footer {
+      margin-top: 78px;
+    }
+  }
+}
 @media screen and (min-width: 1024px) {
   body {
     justify-items: center;
