@@ -214,6 +214,40 @@ footer {
     overflow-x: hidden;
   }
 }
+@media (max-width: 768px){
+    @supports (-moz-appearance: none) {
+    #menu-user {
+      font-size: 18px;
+    } 
+    #theme-page {
+      font-size: 17px;
+      position: relative;
+      right: 97px;
+      bottom: 1px;
+    }
+    .card-about {
+      font-size: 11px;
+    }
+    .about-card {
+      font-size: 11px;
+    }
+    .card-figure-a {
+      height: 168px;
+      width: 140px;
+    }
+    .card-gif {
+      height: 197px;
+      width: 97px;
+    }
+    .card-figure-b {
+      height: 200px;
+      width: 220px;
+    }
+    .github, .instagram, .spotify {
+      font-size: 10px;
+    }
+  }
+}
 /* -- MEDIA QUERY FEITO POR I.A CHAT-GPT -- */
 @media (min-width: 720px){
     #theme-page {
