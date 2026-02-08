@@ -183,6 +183,19 @@ footer {
     transform: translate(40%, -14%) rotate(360deg);
   }
 }
+@media (max-width: 340px){
+  * {
+    padding:0;
+    margin:0;
+    max-Width: 100vw;
+    box-Sizing: border-box;
+  }
+  html, body {
+    width: 100%;
+    max-Width: 100%;
+    overflow-x: hidden;
+  }
+}
 /* -- MEDIA QUERY FEITO POR I.A CHAT-GPT -- */
 @media (max-width: 768px) {
   @supports (-moz-appearance: none) {
