@@ -1,4 +1,6 @@
+window.onload = () => {
 main.setAttribute("class", "loading-form");
+};
 const CARD_MAIN = document.querySelector(".card-main");
 const FORM_CARD = document.querySelector("#validated_success");
 const BTN_FORM = document.getElementById("sub");
