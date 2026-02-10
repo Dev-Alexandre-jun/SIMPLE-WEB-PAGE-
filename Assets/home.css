@@ -227,8 +227,9 @@ footer {
   }
   main {
     max-width: 1200px;
-    grid-template-areas: "article"
-      "aside";
+    grid-template-areas:
+  "article"
+  "aside";
     grid-template-columns: 1fr auto;
     align-items: center;
     padding: 40px;
