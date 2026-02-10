@@ -222,22 +222,26 @@ footer {
   body {
     justify-items: center;
   }
-
+  .card-head {
+    height: 450px;
+  }
   main {
     max-width: 1200px;
-    grid-template-areas: "article aside";
-    grid-template-columns: 1fr;
+    grid-template-areas: "article"
+      "aside";
+    grid-template-columns: 1fr auto;
     align-items: center;
     padding: 40px;
   }
 
   article {
-    margin-top: 220px;
     font-size: 18px;
     line-height: 1.8;
   }
 
   aside {
+    position: relative;
+    bottom: 32%;
     font-size: 17px;
     line-height: 1.7;
   }
@@ -269,6 +273,9 @@ footer {
   }
 
   #ALT_IMG {
+    position: relative;
+    top: 120%;
+    right: 488%;
     display: block;
     margin: 40px auto;
     transform: none;
@@ -283,5 +290,7 @@ footer {
 
   footer {
     font-size: 11px;
+    width: 100%;
+    height: 40px;
   }
 }
