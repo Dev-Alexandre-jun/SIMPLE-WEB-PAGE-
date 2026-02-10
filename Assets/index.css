@@ -368,6 +368,7 @@ footer {
   }
   .card-aux-gif {
     position: relative;
+    left: 59px;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -378,7 +379,9 @@ footer {
     border-radius: 20px;
   }
   .card-gif {
-    visibility: hidden;
-    opacity: 0;
+    position: absolute;
+    right: 57%;
+    max-width: 175px;
+    aspect-ratio: 1 / 2.2;
   }
 }
