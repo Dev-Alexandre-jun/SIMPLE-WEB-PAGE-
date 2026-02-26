@@ -339,7 +339,7 @@ footer {
   }
   .card-gif {
     position: absolute;
-    left: 46.5%;
+    left: 46.6%;
     bottom: 45.4%;
     width: 132px;
     height: 287px;
@@ -438,7 +438,7 @@ footer {
     }
   }
 }
-  @-moz-document url-prefix() {
+@-moz-document url-prefix() {
   @media (min-width: 1024px) {
     header {
       height: 250px;
