@@ -11,7 +11,7 @@ body.loading-form {
   background-size: cover;
 }
 form {
-  margin: 250px auto 0;
+  margin: 80px auto 0;
   padding-top: 25px;
   width: 270px;
   height: 340px;
@@ -153,4 +153,50 @@ input[type="checkbox"] {
   border-radius: 25px;
   text-align: justify;
   background-color: var(--color-0-g);
+}
+@media (min-width: 720px) and (max-width: 1023px) {
+  form {
+    margin: 800px auto 0;
+  }
+}
+@media (min-width: 1024px) {
+  form {
+    margin: 100pc auto 0;
+  }
+}
+@-moz-document url-prefix() {
+  @media (max-width: 480px) {
+    .terms-check {
+      top: -13px;
+    }
+    .error_check {
+      margin: -31px 0 0 32px;
+    }
+  }
+}
+@-moz-document url-prefix() {
+  @media (min-width: 500px) and (max-width: 1023px) {
+    form {
+      margin: 500px auto 0;
+    }
+    .terms-check {
+      top: -14px;
+    }
+    .error_check {
+      margin: -31px 0 0 32px;
+    }
+  }
+}
+@-moz-document url-prefix() {
+  @media (min-width: 1024px) {
+    form {
+      margin: 80pc auto 0;
+    }
+    .terms-check {
+      top: -14px;
+    }
+    .error_check {
+      margin: -31px 0 0 32px;
+    }
+  }
 }
