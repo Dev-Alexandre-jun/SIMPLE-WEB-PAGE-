@@ -154,9 +154,141 @@ input[type="checkbox"] {
   text-align: justify;
   background-color: var(--color-0-g);
 }
-
-
-
 /* Media query AI-powered and student programmer Dev demo junier */
-
-
+@media (min-width: 720px) and (max-width: 1023px) {
+  form {
+    width: 88%;
+    max-width: 500px;
+    height: auto;
+    margin: 700px auto 0;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  .fixed input {
+    height: 46px;
+    font-size: 18px;
+  }
+  .fixed label {
+    font-size: 20px;
+  }
+  #sub {
+    left: 30%;
+    width: 38%;
+    height: 48px;
+    font-size: 20px;
+  }
+  .terms-check {
+    top: -11px;
+  }
+  .error_check {
+    margin: -26px 0 0 32px;
+  }
+}
+@media (min-width: 1024px) {
+  form {
+    width: 70%;
+    max-width: 620px;
+    height: auto;
+    margin: 97pc auto 0;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .fixed input {
+    height: 50px;
+    font-size: 20px;
+  }
+  .fixed label {
+    font-size: 22px;
+  }
+  #sub {
+    left: 31%;
+    width: 36%;
+    height: 52px;
+    font-size: 22px;
+  }
+  .terms-check {
+    top: -11px;
+  }
+  .error_check {
+    margin: -25px 0 0 32px;
+  }
+}
+@-moz-document url-prefix() {
+  @media (max-width: 480px) {
+    form {
+      margin: 14px auto 0;
+    }
+    .terms-check {
+      top: -13px;
+    }
+    .error_check {
+      margin: -31px 0 0 32px;
+    }
+  }
+}
+@-moz-document url-prefix() {
+  @media (min-width: 720px) and (max-width: 1023px) {
+    form {
+      width: 88%;
+      max-width: 500px;
+      height: auto;
+      margin: 400px auto 0;
+    }
+    h1 {
+      font-size: 42px;
+    }
+    .fixed input {
+      height: 46px;
+      font-size: 18px;
+    }
+    .fixed label {
+      font-size: 20px;
+    }
+    #sub {
+      left: 30%;
+      width: 38%;
+      height: 48px;
+      font-size: 20px;
+    }
+    .terms-check {
+      top: -13px;
+    }
+    .error_check {
+      margin: -31px 0 0 32px;
+  }
+ }
+}
+@-moz-document url-prefix() {
+  @media (min-width: 1024px) {
+    form {
+      width: 70%;
+      max-width: 620px;
+      height: auto;
+      margin: 90pc auto 0;
+    }
+    h1 {
+      font-size: 48px;
+    }
+    .fixed input {
+      height: 50px;
+      font-size: 20px;
+    }
+    .fixed label {
+      font-size: 22px;
+    }
+    #sub {
+      left: 31%;
+      width: 36%;
+      height: 52px;
+      font-size: 22px;
+    }
+    .terms-check {
+      top: -13px;
+    }
+    .error_check {
+      margin: -31px 0 0 32px;
+    }
+  }
+}
