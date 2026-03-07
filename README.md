@@ -11,7 +11,7 @@ CHAT - GPT **Obrigado por ter chegado até aqui** Descrição do Projeto e autho
 **Developer:** Alexandre
 
 Aprendendo desenvolvimento **Front-end** e **Back-end**.  
-Projeto ainda **pode ficar não responsivo para algumas telas** — em evolução constante.
+Projeto ainda **pode ficar não responsivo para algumas telas**
 
 ---
 
