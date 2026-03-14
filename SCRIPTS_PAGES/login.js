@@ -63,7 +63,7 @@ BTN_FORM.addEventListener("click", (e) => {
     setTimeout(() => {
     FORM_CARD.classList.add("open");
     CARD_MAIN.classList.add("login-sucess");
-    main.removeAttribute("class, loading-form");
+    main.removeAttribute("class", "loading-form");
     main.setAttribute("class", "success");
     }, 2000);
   };
