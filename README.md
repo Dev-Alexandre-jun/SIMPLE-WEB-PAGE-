@@ -1,10 +1,9 @@
 # README.md 
-**README DESCRIÇÃO** Feito por I.A -- Essa descrição foi feita por I.A para melhor compreensão ao público
+**README DESCRIÇÃO**
 
 -- 
 
-# I.A
-CHAT - GPT **Obrigado por ter chegado até aqui** Descrição do Projeto e author
+ **Obrigado por ter chegado até aqui** Descrição do Projeto e author
 
 
 # 📌 Projeto — v0.0.1  
