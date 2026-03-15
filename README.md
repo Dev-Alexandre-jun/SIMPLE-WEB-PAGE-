@@ -29,7 +29,7 @@ Aqui documento minha prática com HTML, CSS e JavaScript enquanto desenvolvo pro
 
 ## 📱 Ambiente de Desenvolvimento  
 - Editor: **SPCK Editor** (Galaxy A50 – mobile)  
-- Plataformas de estudo: **Mimo**, **YouTube**, **Chrome**
+
 
 ---
 
