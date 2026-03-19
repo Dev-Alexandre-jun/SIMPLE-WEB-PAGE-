@@ -3,7 +3,7 @@
   display:none;
 }
 .card-main.login-sucess {
-  display: unset; !important;
+  display: unset;
 }
 body.sucess {
   height: 100vh;
