@@ -1,11 +1,12 @@
-window.onload = () => {
-main.setAttribute("class", "loading-form");
-};
+document.addEventListener("DOMContentLoaded", () => {
+  main.setAttribute("class", "loading-form");
+});
+
+const USR_EMAIL = document.getElementById("user_email");
+const USR_PASSWORD = document.getElementById("user_password");
 const CARD_MAIN = document.querySelector(".card-main");
 const FORM_CARD = document.querySelector("#validated_success");
 const BTN_FORM = document.getElementById("sub");
-const USR_EMAIL = document.getElementById("user_email");
-const USR_PASSWORD = document.getElementById("user_password");
 const CHECK_BOX = document.getElementById("check");
 const ALT = document.getElementById("fa_fa_pass");
 
@@ -13,9 +14,6 @@ const ERROR_EMAIL = document.querySelector(".error_gmail");
 const ERROR_PASSWORD = document.querySelector(".error_password");
 const ERROR_CHECK = document.querySelector(".error_check");
 const TERMS_CHECK = document.querySelector(".terms-check");
-
-const EMAIL_VALIDATE = "admin@gmail.com";
-const PASSOWRD_VALIDATE = "admin";
 
 ALT.addEventListener("click", () => {
   if (USR_PASSWORD.type === "password") {
@@ -30,6 +28,11 @@ ALT.addEventListener("click", () => {
 BTN_FORM.addEventListener("click", (e) => {
   e.preventDefault();
   
+  const EMAIL_VALIDATE = "admin@gmail.com";
+  const PASSOWRD_VALIDATE = "admin";
+  const EMAIL = USR_EMAIL.value.trim();
+  const PASSWORD = USR_PASSWORD.value.trim();
+  
   let validated = true;
   
   USR_EMAIL.classList.remove("error");
@@ -39,13 +42,13 @@ BTN_FORM.addEventListener("click", (e) => {
   ERROR_CHECK.classList.remove("visible_error");
   TERMS_CHECK.classList.remove("visibility_hidden");
   
-  if (USR_EMAIL.value.trim() !== EMAIL_VALIDATE) {
+  if (EMAIL !== EMAIL_VALIDATE) {
     USR_EMAIL.classList.add("error");
     ERROR_EMAIL.classList.add("visible_error");
     validated = false;
   }
   
-  if (USR_PASSWORD.value.trim() !== PASSOWRD_VALIDATE) {
+  if (PASSWORD !== PASSOWRD_VALIDATE) {
     USR_PASSWORD.classList.add("error");
     ERROR_PASSWORD.classList.add("visible_error");
     validated = false;
