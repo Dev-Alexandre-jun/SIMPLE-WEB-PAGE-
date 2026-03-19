@@ -4,6 +4,7 @@ const ALTERNATE_IMG = document.querySelector("#ALT_IMG");
 const IMG_0_HOME = document.querySelector(".card-img-home");
 const IMG_1_HOME = document.querySelector(".card-flex-box-home");
 const IMG_2_HOME = document.querySelector(".card-grid-home");
+
 const linksImage = [
   "../Media/setting-css-properties-83a3592180319.png",
   "../Media/flex.png",
@@ -12,10 +13,14 @@ const linksImage = [
   "../Media/flexbox_20251226_230048.jpg",
   "../Media/grid5_20251226_225939.jpg"
 ];
+
 let alt_img = true;
+
 ALTERNATE_IMG.addEventListener('click', () => {
+  
   ALTERNATE_IMG.classList.add("visibility_hidden");
   ALTERNATE_IMG.classList.add("alt");
+  
   if (alt_img) {
     setTimeout(() => {
       ALTERNATE_IMG.classList.remove("visibility_hidden");
