@@ -62,7 +62,7 @@ input[type="password"].error {
 }
 .fixed input:focus + label,
 .fixed input:not(:placeholder-shown) + label {
-  top: -20px;
+  top: -19.5px;
   left: 4px;
   font-size: 20px;
   color: var(--color-w);
