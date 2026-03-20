@@ -39,6 +39,7 @@ header {
   font-size: 27px;
   color: var(--color-w);
   transform: translate(10px, -32px);
+  z-index: 9999;
 }
 #theme-page {
   background-color: var(--color-t);
@@ -112,12 +113,14 @@ abbr {
 }
 .card-figure-a, .card-figure-b {
   border-radius: 20px;
+  z-index: 1;
 }
 .card-gif {
   position: relative;
   left: 88px;
   bottom: 299px;
   border-radius: 10px;
+  z-index: 2;
 }
 figcaption, .card-fig-b {
   text-align: center;
