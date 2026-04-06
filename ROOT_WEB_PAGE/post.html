@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Dev Alexandre">
+<meta name="description" content="Simple Learning - get/post - concepts API">
+<link rel="stylesheet" href="../Assets/root.css">
+<link rel="stylesheet" href="../Assets/fonts.css">
+<link rel="stylesheet" href="../Assets/post.css">
+<title>TEST/API</title>
+</head>
+<body>
+    
+<header>
+   <h1 id="sub-title">POSTS DA API</h1>
+    <button id="alt">TESTAR API</button>
+</header>
+
+<div id="posts"></div>
+
+<div id="container-form">
+ 
+  <form action="#" method="post">
+    <label class="label-name" for="user-name">NOME&#58;</label>
+  <input id="user-name" type="text" name="text" placeholder="Digite seu nome:">
+  <p class="name_error">INCORRETO &#45; Não pode conter números&#58;</p>
+    <label class="label-age" for="user-age">IDADE&#58;</label>
+  <input id="user-age" type="number" name="number" placeholder="Digite sua idade:">
+  <p class="age_error">INCORRETO &#45; Não pode ser maior que 75 Anos&#58;</p>
+    <label class="label-comment" for="user-description">OPINIÃO&#58;</label>
+  <textarea id="user-description" cols="30" rows="8" placeholder="Deixe sua opinião!" required></textarea>
+  <input id="user-check" type="checkbox">
+  <p class="check_error">Concorde com os termos&#58;</p>
+  <input type="submit" value="ENVIAR">
+  </form>
+</div>
+
+<footer>
+<p class="footer-info">Direitos Ⓡ API gratuita, fictícia e confiável para testes e prototipagem. &copy;</p>
+</footer>
+
+<script src="../SCRIPTS_PAGES/post.js"></script>
+</body>
+</html>
