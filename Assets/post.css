@@ -1,0 +1,145 @@
+a {
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  outline: double var(--color-b);
+  border-radius: 8px;
+  background-color: var(--color-lg);
+  color: var(--color-b);
+  padding: 2px;
+}
+#sub-title {
+  position: absolute;
+  top:0;
+  outline: double var(--red-color-);
+  background-color: var(--color-lg);
+  color: var(--red-color-);
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 5px 8px var(--color-w);
+  box-shadow: 2px 5px 8px var(--color-b);
+  -webkit-text-stroke: 0.5px var(--color-b);
+  padding-left: 20px;
+}
+#alt {
+  display: block;
+  height: 100%;
+  height: auto;
+  width: 70px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--red-color-);
+  color: var(--color-w);
+  box-shadow: 2px 5px 9px var(--color-b);
+  -webkit-text-stroke: 0.4px var(--color-b);
+  margin: 240px 0 100px 120px;
+}
+#alt.test_api {
+  height: 36.2px;
+}
+#posts.hide {
+  display: none;
+}
+#posts.visible {
+  display: block;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* It is not a default file in the Media folder. */
+ /* Errors while trying to insert the image. */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwqGDSk4m9nzpdYu0jk195-NQUPQB3sLcADzfppXwdmw&s=10');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid var(--color-b);
+  border-radius: 8px;
+  box-shadow: 2px 8px 17px var(--color-b);
+  margin-bottom: 150px;
+  padding: 20px;
+}
+#container-form {
+  display: none;
+}
+#container-form.access {
+  display: block;
+  padding: 10px;
+}
+label {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--color-w);
+}
+.label-name, .label-age {
+  position: relative;
+  top: 9px;
+  right: 100px;
+}
+.label-comment {
+  margin-top: 10px;
+}
+input[type="text"], input[type="number"]{
+  min-width: 100%;
+  width: auto;
+  height: 30px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin: 5px;
+}
+input[type="checkbox"]{
+  transform: translate(-99.9px, 50px);
+}
+input[type="text"].error, input[type="number"].error {
+  border: 1px solid var(--red-color-);
+}
+input[type="checkbox"].error{
+  outline: solid;
+  outline-width: 1px;
+  outline-color: var(--red-color-);
+}
+input[type="submit"]{
+  display: block;
+  height: 40px;
+  width: 58px;
+  font-weight: bold;
+  border: 1px solid var(--color-b);
+  border-radius: 4px;
+  background: linear-gradient(var(--color-0-g), var(--color-1-g));
+  color: var(--color-w);
+}
+.name_error, .age_error,.check_error {
+  color: var(--color-t);
+  font-size: 9px;
+}
+.name_error.failed, .age_error.failed, .check_error.failed {
+  position: relative;
+  color: var(--red-color-);
+  font-size: 9px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.name_error {
+  right: 38px;
+  bottom: 5px;
+}
+.age_error {
+  right: 25px;
+  bottom: 5px;
+}
+.check_error {
+  top: 60px;
+  right: 88px;
+}
+textarea {
+  padding: 10px;
+  font-weight: bold;
+}
+footer {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Under development - NOT RESPONSIVE  */
