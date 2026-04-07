@@ -100,7 +100,7 @@ form.addEventListener("submit", async (event) => {
   
   try {
     const post_res = await fetch(API, {
-      method: "post",
+      method: "POST",
       headers: {
         "Content-Type": "application/json"
       },
