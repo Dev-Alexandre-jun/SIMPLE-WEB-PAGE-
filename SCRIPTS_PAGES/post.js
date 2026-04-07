@@ -21,7 +21,7 @@ async function selectPosts() {
     
     if (!res.ok) {
       throw new Error(`[ERROR - Connection failed HTTP REQUEST] ${res.status}`);
-    }
+    };
     
     const data = await res.json();
     data.forEach((post) => {
@@ -44,8 +44,8 @@ async function selectPosts() {
     });
   } catch (err) {
     console.error("[ERROR]", err);
-  }
-}
+  };
+};
 
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
@@ -78,17 +78,17 @@ form.addEventListener("submit", async (event) => {
      name.classList.add("error");
      name_failed.classList.add("failed");
      vld = false;
-   }
+   };
    if(value_age.trim() === "" || isNaN(value_age) || Number(value_age) > 75){
      age.classList.add("error");
      age_failed.classList.add("failed");
      vld = false;
-   }
+   };
    if(!value_check){
      check.classList.add("error");
      check_failed.classList.add("failed");
      vld = false;
-   }
+   };
    
   if (!vld) return;
   
@@ -109,7 +109,7 @@ form.addEventListener("submit", async (event) => {
     
     if (!post_res.ok) {
       throw new Error(`[ERROR - POST FAILED] ${post_res.status}`);
-    }
+    };
     
     const content = await post_res.json();
     
@@ -118,7 +118,7 @@ form.addEventListener("submit", async (event) => {
     console.log("Object - Campos Preenchidos :", content);
   } catch (err) {
     console.error("[ERROR]", err);
-  }
+  };
 });
 
 btn_alt.addEventListener("click", () => {
@@ -136,7 +136,7 @@ btn_alt.addEventListener("click", () => {
     btn_alt.innerHTML = string_values[2];
     btn_alt.classList.remove("test_api");
     container_form.classList.remove("access");
-  }
+  };
   
   alt = !alt;
 });
