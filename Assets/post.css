@@ -143,3 +143,20 @@ footer {
   margin-bottom: 20px;
 }
 /* Under development - NOT RESPONSIVE  */
+@media (min-width: 720px) and (max-width: 1023px) { 
+  #container-form {
+    margin: 150px;
+  }
+  .label-name, .label-age {
+    right: 280px;
+  }
+  #alt {
+    margin: 180px auto;
+  }
+  .name_error {
+    right: 217px;
+  }
+  .age_error {
+    right: 204px;
+  }
+}
