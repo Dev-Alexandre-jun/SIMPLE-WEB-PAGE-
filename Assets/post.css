@@ -158,3 +158,9 @@ footer {
     right: 204px;
   }
 }
+@media (min-width: 1024px) {
+  body {
+    display: none;
+    background-color: var(--color-b);
+  }
+}
