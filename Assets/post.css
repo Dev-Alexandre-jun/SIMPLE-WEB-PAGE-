@@ -159,7 +159,7 @@ footer {
   }
 }
 @media (min-width: 1024px) {
-  body {
+  html,body {
     display: none;
     background-color: var(--color-b);
   }
