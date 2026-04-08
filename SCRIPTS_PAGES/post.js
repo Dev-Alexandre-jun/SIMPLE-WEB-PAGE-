@@ -1,3 +1,12 @@
+/*NOT RESPONSIVE - COMPUTER SCREENS */
+
+function loaded(){
+  const screen = window.innerWidth;
+  if (screen >= 1024) {
+  alert("[ERROR] - SCREEN VALUE WIDTH 1024px - NOT RESPONSIVE - PROJECT MOBILE");
+}};
+document.addEventListener("DOMContentLoaded", loaded);
+
 const API = "https://jsonplaceholder.typicode.com/posts";
 
 const container_posts_api = document.getElementById("posts");
