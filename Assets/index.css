@@ -58,7 +58,7 @@ header {
   height: 185px;
   overflow: hidden;
   background-color: var(--color-t);
-z-index: 9999;
+  z-index: 9999;
 }
 .usr-nav {
   position: absolute;
