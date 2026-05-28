@@ -213,27 +213,6 @@ footer {
     max-width: 100%;
     overflow-x: hidden;
   }
-@media (min-width: 389px) and (max-width: 719px) {
-  header {
-    height: 230px;
-  }
-  #menu-user, #theme-page {
-    position: relative;
-  }
-  #menu-user {
-    top: -5px;
-  }
-  #theme-page {
-    top: 74px;
-    left: 68px;
-  }
-  .menu-usr {
-    top: 230px;
-  }
-  .card-gif {
-    left: 109px;
-  }
-}
 @media (min-width: 720px) and (max-width: 1023px) {
   header {
     height: 210px;
