@@ -9,9 +9,9 @@ const linksImage = [
   "../Media/setting-css-properties-83a3592180319.png",
   "../Media/flex.png",
   "../Media/grid-flexbox.jpeg",
-  "../Media/grid_20251226_223853.jpg",
+  "../Media/flexbox-display.png",
   "../Media/flexbox_20251226_230048.jpg",
-  "../Media/grid5_20251226_225939.jpg"
+  "../Media/20251226_225939.jpg"
 ];
 
 let alt_img = true;
