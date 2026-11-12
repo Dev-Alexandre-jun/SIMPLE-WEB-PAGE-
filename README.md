@@ -20,6 +20,9 @@ Aqui documento minha prática com HTML, CSS e JavaScript enquanto desenvolvo pro
 
 ---
 
+git clone https://github.com/Dev-Alexandre-jun/SIMPLE-WEB-PAGE-.git
+
+---
 ## Tecnologias Utilizadas  
 - **HTML5**  
 - **CSS3**  
